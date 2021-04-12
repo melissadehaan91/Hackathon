@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="container">
+    <header>
+        <figure class="header-background">
+            <h1>Contact</h1>
+        </figure>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="over-riga.html">Over Riga</a></li>
+                <li><a href="go-tos.html">Go-to's</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contactformulier</h1>
+        <p>
+            <span class="space-between">
+                Mocht u nog vragen hebben over Riga als vakantiebestemming, stel ze gerust!
+            </span>
+
+            <span class="space-between">
+                Vul onderstaand contactformulier in en uw vraag wordt zo snel mogelijk beantwoord.
+            </span>
+
+            <span class="space-between">
+                Vul uw naam en telefoonnummer in als u liever telefonisch advies wilt over Riga.
+            </span>
+        </p>
+
+        <form name="contact" method="post" action="mailto:melissadehaan@email.nl">
+            <div>
+                <label for="name">Naam:</label><br>
+                <input type="text" name="name" id="name" required />
+            </div>
+
+            <div>
+                <label for="email">E-mailadres:</label><br>
+                <input type="email" name="email" id="email" required />
+            </div>
+
+            <div>
+                <label for="phone">Telefoonnummer: (optioneel)</label><br>
+                <input type="tel" name="phone" id="phone" />
+            </div>
+
+            <div>
+                <label for="message">Uw vraag aan ons:</label><br>
+                <textarea name="message" rows="10" cols="50"></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Verzend</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        Copyright © Melissa de Haan, 2021.
+    </footer>
+</body>
+
+</html>
